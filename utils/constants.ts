@@ -1,6 +1,6 @@
 const WHATSAPP_NUMBER = "919326257650";
 
-const WHATSAPP_MESSAGE = `Hi! \u{1F44B}
+const WHATSAPP_MESSAGE = `Hi! 
 Thank you for reaching out to Anuja Dange. I'm glad you've taken this first step.
 To help me understand your needs and schedule your online therapy session, please share the following details:
 * Name:
@@ -11,7 +11,7 @@ To help me understand your needs and schedule your online therapy session, pleas
 * Reason for Seeking Therapy:
 * Preferred Date & Time for the Session:
 Once I receive your details, I'll get back to you as soon as possible to confirm your appointment.
-Looking forward to connecting with you. \u{1F33F}`;
+Looking forward to connecting with you. `;
 
 export const SITE_CONFIG = {
   name: "Soulful Sessions",
