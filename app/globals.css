@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+    --primary: 152 100% 20%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 125 39% 94%;
+    --secondary-foreground: 0 0% 10%;
+    --muted: 120 20% 96%;
+    --muted-foreground: 0 0% 35%;
+    --accent: 47 96% 69%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 120 15% 90%;
+    --input: 120 15% 90%;
+    --ring: 152 100% 20%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 152 30% 6%;
+    --foreground: 120 10% 95%;
+    --card: 152 25% 10%;
+    --card-foreground: 120 10% 95%;
+    --popover: 152 25% 10%;
+    --popover-foreground: 120 10% 95%;
+    --primary: 152 50% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 152 20% 15%;
+    --secondary-foreground: 120 10% 95%;
+    --muted: 152 20% 15%;
+    --muted-foreground: 120 10% 65%;
+    --accent: 47 96% 69%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 152 20% 18%;
+    --input: 152 20% 18%;
+    --ring: 152 50% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background font-body text-dark-text antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply border border-white/20 bg-white/90 shadow-md backdrop-blur-md;
+  }
+
+  .dark .glass {
+    @apply border-white/10 bg-gray-900/90;
+  }
+
+  .glass-card {
+    @apply rounded-xl border border-primary/10 bg-white shadow-md transition-all duration-300;
+  }
+
+  .dark .glass-card {
+    @apply border-white/10 bg-gray-900;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary via-green-mid to-green-light bg-clip-text text-transparent;
+  }
+
+  .section-padding {
+    @apply px-4 py-16 md:px-8 md:py-20 lg:px-16;
+  }
+
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+
+  .eyebrow {
+    @apply text-sm font-semibold uppercase tracking-widest text-primary;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f7fbf5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #006837;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #004d40;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #0a1a12;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #4caf50;
+}
