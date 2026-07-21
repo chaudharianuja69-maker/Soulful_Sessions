@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { BookOpen, Sparkles } from "lucide-react";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { CTASection } from "@/components/shared/CTASection";
-import { doctor, experienceTimeline } from "@/lib/data/site-data";
 import { fadeUp, staggerContainer } from "@/utils/animations";
 
 export default function AboutPageClient() {
@@ -66,34 +65,6 @@ export default function AboutPageClient() {
               {doctor.philosophy}
             </p>
           </motion.div>
-        </div>
-      </section>
-
-      <section className="section-padding bg-background">
-        <div className="mx-auto max-w-3xl">
-          <SectionHeading
-            title="Career Journey"
-            subtitle="A growing path across academic teaching, corporate wellness, and private practice."
-          />
-          <div className="relative space-y-8 border-l-2 border-accent/20 pl-8">
-            {experienceTimeline.map((exp, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="relative"
-              >
-                <div className="absolute -left-[41px] flex h-5 w-5 items-center justify-center rounded-full bg-accent ring-4 ring-background" />
-                <span className="text-sm font-medium text-primary">{exp.year}</span>
-                <h4 className="font-heading text-lg font-semibold text-dark-text">
-                  {exp.role}
-                </h4>
-                <p className="text-gray-text">{exp.organization}</p>
-              </motion.div>
-            ))}
-          </div>
         </div>
       </section>
 
