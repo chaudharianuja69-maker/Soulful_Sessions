@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { BookOpen, Sparkles } from "lucide-react";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { CTASection } from "@/components/shared/CTASection";
+import { doctor } from "@/lib/data/site-data";
 import { fadeUp, staggerContainer } from "@/utils/animations";
 
 export default function AboutPageClient() {
