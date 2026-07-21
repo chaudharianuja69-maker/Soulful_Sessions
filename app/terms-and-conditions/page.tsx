@@ -33,10 +33,8 @@ export default function TermsPage() {
             Services
           </h2>
           <p>
-            {SITE_CONFIG.name} provides psychological counseling and therapy
-            services conducted by {SITE_CONFIG.psychologist}, a licensed clinical
-            psychologist. Our services are not a substitute for emergency medical
-            care or psychiatric intervention.
+            We provide psychological counseling and therapeutic services, 
+            which are not a substitute for emergency medical care.
           </p>
 
           <h2 className="mt-8 font-heading text-2xl font-semibold text-dark-text">
