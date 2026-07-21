@@ -1,6 +1,5 @@
 import { HeroSection } from "@/components/home/HeroSection";
 import { MissionBanner } from "@/components/home/MissionBanner";
-import { MeetTherapist } from "@/components/home/MeetTherapist";
 import { WhatBringsYouHere } from "@/components/home/WhatBringsYouHere";
 import { ServicesSection } from "@/components/home/ServicesSection";
 import { Timeline } from "@/components/shared/Timeline";
@@ -17,7 +16,6 @@ export default function HomePage() {
     <>
       <HeroSection />
       <MissionBanner />
-      <MeetTherapist />
       <WhyChooseUs />
       <ServicesSection />
       <WhatBringsYouHere />
