@@ -122,7 +122,7 @@ export function Footer() {
                   href={`mailto:${SITE_CONFIG.email}`}
                   className="flex items-center gap-3 text-sm text-white/70 transition-colors hover:text-accent"
                 >
-                  <Mail className="h-4 w-4 text-accent" />
+                  <Mail className="h-4 w-4 shrink-0 text-accent" />
                   {SITE_CONFIG.email}
                 </a>
               </li>
