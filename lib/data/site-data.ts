@@ -2,13 +2,13 @@ import type { FAQItem, Testimonial, Concern, Feature, TimelineStep, TherapyServi
 
 export const doctor = {
   name: "Anuja Dange",
-  title: "Counseling Psychologist",
+  title: "Mental Health Counsellor",
   image: "/counselling-session.png",
   shortBio:
     "With over 7 years of experience across educational institutions and companies, I integrate my passion for psychology into both therapeutic practice and academic teaching — helping children, adolescents, and adults navigate stress, anxiety, trauma, and relationship concerns.",
   fullBio: `With over 7 years of experience across educational institutions, and companies, I integrate my passion for psychology into both therapeutic practice and academic teaching.
 
-As a Counseling Psychologist, I work with children, adolescents, and adults, helping them manage stress, anxiety, trauma, behavioral challenges, and relationship concerns through evidence-based, inclusive, and client-centered approaches. I conduct therapy sessions and mental health workshops tailored to individual needs.
+As a Mental Health Counsellor, I work with children, adolescents, and adults, helping them manage stress, anxiety, trauma, behavioral challenges, and relationship concerns through evidence-based, inclusive, and client-centered approaches. I conduct therapy sessions and mental health workshops tailored to individual needs.
 
 I believe in bridging the gap between theory and practice, in a counseling room, and creating safe spaces that foster growth, resilience, and self-awareness.
 
@@ -166,7 +166,7 @@ export const features: Feature[] = [
   },
   {
     title: "Qualified",
-    description: "Licensed psychologist with 12+ years of clinical experience.",
+    description: "Mental Health Counsellor.",
     icon: "Award",
   },
   {
@@ -253,7 +253,7 @@ export const homeFaq: FAQItem[] = [
   {
     question: "Do you offer couples therapy?",
     answer:
-      "Yes, couples therapy is one of our core services. Anuja Dange specializes in helping couples improve communication, resolve conflicts, and strengthen their relationship.",
+      "Yes, we do couple therapy to strengthen relationships, navigate conflict and improve communication.",
   },
   {
     question: "What is the consultation fee?",
