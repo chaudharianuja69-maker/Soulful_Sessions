@@ -93,7 +93,7 @@ export const services: Service[] = [
       },
       {
         question: "Do I need medication?",
-        answer: "Not always. Anuja Dange will assess your needs and may refer you to a psychiatrist if medication could be beneficial alongside therapy.",
+        answer: "Not always. We will assess your needs and may refer you to a psychiatrist if medication could be beneficial alongside therapy.",
       },
     ],
   },
@@ -237,7 +237,7 @@ export const services: Service[] = [
       },
       {
         question: "How is this different from mood disorders?",
-        answer: "Emotional disturbances focus on regulation difficulties. Anuja Dange will assess if an underlying mood disorder is present.",
+        answer: "Emotional disturbances focus on regulation difficulties. We will assess if an underlying mood disorder is present.",
       },
     ],
   },
@@ -333,7 +333,7 @@ export const services: Service[] = [
       },
       {
         question: "Will you tell me what career to choose?",
-        answer: "Anuja Dange guides you to discover your own answers through self-exploration, not by prescribing a specific career.",
+        answer: "We will guide you to discover your own answers through self-exploration, not by prescribing a specific career.",
       },
     ],
   },
